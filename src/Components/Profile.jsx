@@ -8,7 +8,7 @@ import { useFetch } from '../Hooks/fetch.hook'
 import { useNavigate } from 'react-router-dom'
 
 import styles from '../styles/Username.module.css';
-import extend from '../styles/Profile.module.css'
+import extend from '../styles/profile.module.css'
 
 export function Profile() {
 
