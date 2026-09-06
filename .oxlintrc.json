@@ -1,0 +1,24 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["react", "typescript", "unicorn", "oxc"],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "warn"
+  },
+  "rules": {
+    "no-unused-vars": "error",
+    "no-useless-escape": "error",
+    "react/exhaustive-deps": "warn",
+    "react/only-export-components": "error",
+    "react/react-in-jsx-scope": "off",
+    "react/no-unstable-nested-components": "off",
+    "eqeqeq": "error",
+    "no-case-declarations": "error",
+    "no-self-compare": "error",
+    "default-case-last": "warn",
+    "typescript/no-explicit-any": "warn",
+    "typescript/no-non-null-assertion": "warn",
+    "unicorn/prefer-add-event-listener": "off"
+  },
+  "ignorePatterns": ["dist/**", "node_modules/**"]
+}
